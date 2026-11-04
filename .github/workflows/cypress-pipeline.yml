@@ -4,14 +4,14 @@ name: Run Basic Testes
 # Em que momento será executada
 on: 
   pull_request: 
-    braches: [master]
+    branches: [master]
 
 jobs:
   # O que vai ser feito nessa pipeline
   # só teremos um job: rodas os testes
   cypress-run:
     # maquina que será executado 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     # Passo a passo para rodar os testes
     steps:
