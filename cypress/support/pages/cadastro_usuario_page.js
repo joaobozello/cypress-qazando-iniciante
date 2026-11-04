@@ -15,7 +15,7 @@ const elementos = {
     campos: {
         nome: '#user',
         email: '#email',
-        senha: '#password'
+        senha: '#passwordX'
     }
 }
 
